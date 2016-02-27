@@ -29,6 +29,7 @@ This file contains the self-reported motivation scores for the class over the la
 But before we do that, we will need to manipulate the data frame into a structure that can be analyzed by our clustering algorithm.
 
 The algorithm will treat each row as a value belonging to a person, so we need to remove the id variable.
+
 ```{r}
 
 K2 <- dplyr::select(K1, 2:6)
@@ -153,4 +154,4 @@ Look at the number of people in each cluster, now repeat this process for 3 rath
 
 
 
-Once you have done this, commit your assignment, push it to your Github account and then Pull request your version to the original assignment version so I can see it.
+Once you have done this, save both of your plots to the Assignment 5 file, then commit your assignment, push it to your Github account and then Pull request your version to the original assignment version so I can see it.
