@@ -5,6 +5,10 @@ date: "February 27, 2016"
 output: html_document
 ---
 
+In this assignment we will be applying the K-means clustering algorithm we looked at in class. At th efollowing link you can find a description of K-means, create a webpage index in Zotero and add some notes about the use and limitations of K-means clustering:
+
+https://www.cs.uic.edu/~wilkinson/Applets/cluster.html
+
 You will need three packages to complete this assignment: "dplyr", "tidyr" and a new package called "ggplot2". Install ggplot2 and then load all three packages.
 
 ```{r}
@@ -154,4 +158,4 @@ Look at the number of people in each cluster, now repeat this process for 3 rath
 
 
 
-Once you have done this, save both of your plots to the Assignment 5 file, then commit your assignment, push it to your Github account and then Pull request your version to the original assignment version so I can see it.
+Once you have done this, save both of your plots to the Assignment 5 file. Create a Zotero item to index your new computer program (Assignment 5.rmd) in Zotero. Then commit your assignment, push it to your Github account and then Pull request your version to the original assignment version so I can see it.
