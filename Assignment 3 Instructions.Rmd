@@ -9,6 +9,8 @@ https://www.cs.uic.edu/~wilkinson/Applets/cluster.html
 You will need three packages to complete this assignment: "dplyr", "tidyr" and a new package called "ggplot2". Install ggplot2 and then load all three packages.
 
 ```{r}
+TEST
+
 
 install.packages("ggplot2") #If this doesn't work, use the "Packages" tab to install the package.
 
