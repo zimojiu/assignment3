@@ -12,9 +12,6 @@ You will need three packages to complete this assignment: "dplyr", "tidyr" and a
 
 
 ```{r}
-TEST
-
-
 install.packages("ggplot2") #If this doesn't work, use the "Packages" tab to install the package.
 
 library(dplyr)
