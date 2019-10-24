@@ -47,7 +47,7 @@ Another pre-processing step used in K-means is to standardize the values so that
 
 ```{r}
 
-K3 <- scale(K3)
+K3 <- 
 
 ```
 
@@ -133,6 +133,8 @@ Now we can plot our line plot using the ggplot command, "ggplot()".
 
 What patterns do you see in the plot?
 
+
+
 It would be useful to determine how many people are in each cluster. We can do this easily with dplyr.
 
 ```{r}
@@ -141,13 +143,13 @@ K7 <-
 
 Look at the number of people in each cluster, now repeat this process for 3 rather than 2 clusters. Which cluster grouping do you think is more informative? Write your answer below:
 
-Once you have done this, save both of your plots to the Assignment 5 file.
-
 ##Part II
 
-Now, try to do the same for the data collected in class. Create two sets of clusters, the answers to the questions and regions where people grew up. 
+Using the data collected for Assignment 2 (which classes students were in), cluster the students, then redraw the graph of the class but color the students according the cluster they are in.
 
 ##Part III
 
-Create a visualization that shows the overlap between the two groups of clusters you created in part III.
+In class activity 6 you clustered students in the class by the answers to a questionaire. Create a visualization that shows the overlap between these clusters and the clusters generated in part II.
+
+## Please render your code as an .html file using knitr and Pull Resquest both your .Rmd file and .html files to the Assignment 3 repository.
 
